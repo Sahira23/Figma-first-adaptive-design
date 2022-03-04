@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 56px 30.53px 89px 36px;
+}
+.main-head {
+    height: 43.34px;
+    font-size: 26px;
+    line-height: 101.38%;
+    /* or 26px */
+    margin-bottom: 9px;
+}
+.text {
+    max-width: 308.47px;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+}
+.image {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 45.71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image>img {
+    display: block;
+    width: 170.55px;
+    height: 160.29px;
+}
+
+
+.top{
+    display: flex;
+}
+.bottom{
+    margin-top: 45.71px;
+}
+.boxes {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin-right: 33.33px;
+}
+
+.box:last-child {
+    margin-top: 34px;
+}
+
+
+.boxes > .box > .head {
+    width: 69.9px;
+    height: 18.17px;
+    font-size: 12px;
+    line-height: 130%;
+    /* or 16px */
+}
+.boxes > .box > .additional-info {
+    width: 86.89px;
+    height: 18.5px;
+    font-size: 10px;
+    line-height: 130%;
+    /* or 13px */
+}
+.none-image {
+    display: none;
+}
+
+
